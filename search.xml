@@ -113,9 +113,65 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Adobe-MAC安装教程</title>
+    <url>/posts/4d654abd/</url>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="💡文档目录"><a href="#💡文档目录" class="headerlink" title="💡文档目录"></a>💡文档目录</h2><p><strong>| - <a href="/posts/96ba4de4/">🚀Adobe全套下载</a> - | - <a href="/posts/1a7dd6ac/">📚Win安装教程</a> | - <a href="/posts/4d654abd/4d654abd/">📚MAC安装教程</a> - |</strong></p>
+</div>
+
+<hr>
+<h1 id="Adobe-MAC安装教程"><a href="#Adobe-MAC安装教程" class="headerlink" title="Adobe-MAC安装教程"></a>Adobe-MAC安装教程</h1><h2 id="一、安装教程"><a href="#一、安装教程" class="headerlink" title="一、安装教程"></a>一、安装教程</h2><ul>
+<li>为节约您宝贵的阅读时间，增加阅读效率，本页面的所有软件均为同一出处，即安装方式一模一样，故本安装教程仅以Adobe PhotoShop(PS)<img src="https://img.shields.io/badge/PhotoShop-2024%20v25.1.0+-367aff?logo=adobephotoshop&logoColor=31a8ff" alt="img">为例进行详细讲解，因此版本安装方式有别于以往的一切版本，且安装过程较为复杂，请您务必从头到尾逐字逐句阅读完毕再行安装。</li>
+</ul>
+<h3 id="一-开启任意来源"><a href="#一-开启任意来源" class="headerlink" title="(一)开启任意来源"></a>(一)开启任意来源</h3><h4 id="1、复制操作代码"><a href="#1、复制操作代码" class="headerlink" title="1、复制操作代码"></a>1、复制操作代码</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo spctl --master-disable</span><br></pre></td></tr></table></figure>
+
+<h4 id="2、打开终端"><a href="#2、打开终端" class="headerlink" title="2、打开终端"></a>2、打开终端</h4><p><img src="https://s2.loli.net/2024/04/18/q386mZtQoPWdOXz.png" alt="image-20240418160313493"></p>
+<h4 id="3、复制粘贴代码"><a href="#3、复制粘贴代码" class="headerlink" title="3、复制粘贴代码"></a>3、复制粘贴代码</h4><ul>
+<li>打开终端后一定要复制粘贴进去，手动输入可能会错误，快捷键为：command+v，然后按回车键。</li>
+</ul>
+<p><img src="https://s2.loli.net/2024/04/18/qpD1GTPbxYWOcrj.png" alt="image-20240418160348170"></p>
+<h4 id="4、输入开机密码"><a href="#4、输入开机密码" class="headerlink" title="4、输入开机密码"></a>4、输入开机密码</h4><p>此事会出现Password的字样，旁边会有一把小钥匙的图标，表示需要您输入电脑的开机密码，特别注意的是此时输入密码不会在终端上出现任何文字信息，输入完成之后按回车键即可。</p>
+<p><img src="https://s2.loli.net/2024/04/18/CZuq8TcgeiXjkho.png" alt="image-20240418160413350"></p>
+<h4 id="5、检查是否完成"><a href="#5、检查是否完成" class="headerlink" title="5、检查是否完成"></a>5、检查是否完成</h4><p>完成之后点击屏幕左上角的苹果🍎图标，分别打开 系统偏好设置 -&gt; 安全与隐私 -&gt; 通用检查是否已经开启了任何来源</p>
+<p><img src="https://s2.loli.net/2024/04/18/5f1MTNckR62rZXU.png" alt="image-20240418160441168"></p>
+<h3 id="二-删除quarantine扩展属性"><a href="#二-删除quarantine扩展属性" class="headerlink" title="(二)删除quarantine扩展属性"></a>(二)删除quarantine扩展属性</h3><h4 id="1、复制操作代码-1"><a href="#1、复制操作代码-1" class="headerlink" title="1、复制操作代码"></a>1、复制操作代码</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo xattr -r -d com.apple.quarantine</span><br></pre></td></tr></table></figure>
+
+<h4 id="2、打开终端-1"><a href="#2、打开终端-1" class="headerlink" title="2、打开终端"></a>2、打开终端</h4><p><img src="https://s2.loli.net/2024/04/18/mEOhxQrsIA3jScu.png" alt="image-20240418160504646"></p>
+<h4 id="3、粘贴代码"><a href="#3、粘贴代码" class="headerlink" title="3、粘贴代码"></a>3、粘贴代码</h4><p>打开终端后一定要复制粘贴进去，手动输入可能会错误，快捷键为：command+v，然后切记按下空格键，并将您下载下来的安装包拖动至终端窗口，随后输入开机密码并按下回车键。</p>
+<p><img src="https://s2.loli.net/2024/04/18/TXH2AEvljOQwpYS.gif"></p>
+<h3 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="(三)开始安装"></a>(三)开始安装</h3><h4 id="1、文件介绍"><a href="#1、文件介绍" class="headerlink" title="1、文件介绍"></a>1、文件介绍</h4><p><img src="https://s2.loli.net/2024/04/18/obCvNxjZRYBPTra.png"></p>
+<h5 id="本安装包内一共包含了6个重要文件，以上图序号为例，安装步骤为【1、2、3-或4-】，下文将会重点介绍操作步骤，本文介绍文件用途。"><a href="#本安装包内一共包含了6个重要文件，以上图序号为例，安装步骤为【1、2、3-或4-】，下文将会重点介绍操作步骤，本文介绍文件用途。" class="headerlink" title="本安装包内一共包含了6个重要文件，以上图序号为例，安装步骤为【1、2、3(或4)】，下文将会重点介绍操作步骤，本文介绍文件用途。"></a>本安装包内一共包含了6个重要文件，以上图序号为例，安装步骤为【1、2、3(或4)】，下文将会重点介绍操作步骤，本文介绍文件用途。</h5><ul>
+<li>1：禁用Adobe Creative Cloud；</li>
+<li>2：PhotoShop(PS)主安装包；</li>
+<li>3：离线版激活补丁(无需登录账号，但无神经滤镜功能)；</li>
+<li>4：在线版激活补丁(必须登录账号，可用神经滤镜功能)；</li>
+<li>5：修复无法打开的脚本；</li>
+<li>6：中文语言包；</li>
+</ul>
+<h4 id="2、禁用Adobe-Creative-Cloud"><a href="#2、禁用Adobe-Creative-Cloud" class="headerlink" title="2、禁用Adobe Creative Cloud"></a>2、禁用Adobe Creative Cloud</h4><p>打开AntiCC 5.9.pkg并无脑点击继续按钮，期间会要求输入电脑开机密码；</p>
+<p><img src="https://s2.loli.net/2024/04/18/dbqvcDpe23Y1znI.png" alt="image-20240418160951801"></p>
+<h4 id="3、打开安装包主程序"><a href="#3、打开安装包主程序" class="headerlink" title="3、打开安装包主程序"></a>3、打开安装包主程序</h4><p>打开PhotoShop 25.1 Universal(With plugin)_Install.pkg并无脑点击继续按钮，期间会要求输入电脑开机密码，随后静待安装完成(等待约3-5分钟)；</p>
+<p><img src="https://s2.loli.net/2024/04/18/PWnCjETKqHzSoyN.png" alt="image-20240418161027345"></p>
+<p><img src="https://s2.loli.net/2024/04/18/p1rFqCiOMc4kQwh.png" alt="image-20240418161055038"></p>
+<h4 id="4、打开软件"><a href="#4、打开软件" class="headerlink" title="4、打开软件"></a>4、打开软件</h4><p>在启动台或访达 - 应用程序启动软件，然后关闭；</p>
+<p><img src="https://s2.loli.net/2024/04/18/EPSA6RlILdbFHc8.png" alt="image-20240418161152572"></p>
+<h4 id="5、启动激活补丁"><a href="#5、启动激活补丁" class="headerlink" title="5、启动激活补丁"></a>5、启动激活补丁</h4><p>为了教程方便，这里以离线版激活补丁为例，正常情况下，神经滤镜大多数人也用不到。</p>
+<p>启动激活补丁后，选择您要激活的软件，本文以PhotoShop(PS)为例。</p>
+<p><img src="https://s2.loli.net/2024/04/18/b4qB9p5Isv1oJGu.png" alt="image-20240418161217753"></p>
+<p>至此，教程结束，您可正常使用2024版本。</p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>资源</tag>
+        <tag>下载</tag>
+        <tag>Adobe</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Adobe-WIN安装教程</title>
     <url>/posts/1a7dd6ac/</url>
-    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="💡文档目录"><a href="#💡文档目录" class="headerlink" title="💡文档目录"></a>💡文档目录</h2><p><strong>| - <a href="/posts/96ba4de4/">🚀Adobe全套下载</a> - | - <a href="/posts/1a7dd6ac/">📚Win安装教程</a> | - <a href="/posts/96ba4de4/">📚MAC安装教程</a> - |</strong></p>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="💡文档目录"><a href="#💡文档目录" class="headerlink" title="💡文档目录"></a>💡文档目录</h2><p><strong>| - <a href="/posts/96ba4de4/">🚀Adobe全套下载</a> - | - <a href="/posts/1a7dd6ac/">📚Win安装教程</a> | - <a href="/posts/4d654abd/">📚MAC安装教程</a> - |</strong></p>
 </div>
 
 <hr>
@@ -133,23 +189,23 @@
 <li><p>如果下载下来图标是白色的，说明您没安装压缩包软件，请【<a href="https://yasuo.360.cn/"><strong>点我下载</strong></a>】；</p>
 </li>
 </ul>
-<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007272162-assets/web-upload/cde36430-8e8e-4b3c-96a6-c76a98f006f3.png?x-oss-process=image/resize,w_410,limit_0" alt="img"></p>
+<p><img src="https://s2.loli.net/2024/04/18/leC27fuBtyDzaLZ.png" alt="image-20240418153526691"></p>
 <h3 id="3开始安装"><a href="#3开始安装" class="headerlink" title="3开始安装"></a>3开始安装</h3><ul>
 <li>右键点击解压出来的文件夹中的【Set-up.exe】安装程序，并选择“以管理员身份运行”;</li>
 </ul>
-<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007805427-assets/web-upload/4b924a73-3727-4577-b684-06752f0ddff1.png?x-oss-process=image/resize,w_658,limit_0" alt="img"></p>
+<p><img src="https://s2.loli.net/2024/04/18/imleQdGKMAkWxEz.png" alt="image-20240418153555517"></p>
 <ul>
 <li>选择软件需要安装到的磁盘及磁盘内的文件夹位置；</li>
 </ul>
-<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007932464-assets/web-upload/27906d2e-e029-4a18-a883-80d84d872646.png?x-oss-process=image/resize,w_466,limit_0" alt="img"></p>
+<p><img src="https://s2.loli.net/2024/04/18/oWnXdHZ3eyuzYxD.png" alt="image-20240418153634983"></p>
 <ul>
 <li>等待程序安装完成；</li>
 </ul>
-<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007932445-assets/web-upload/6117695d-0cd8-4c84-a246-16ad34ba787a.png?x-oss-process=image/resize,w_474,limit_0" alt="img"></p>
+<p><img src="https://s2.loli.net/2024/04/18/xSTMA8Dj1vIZsz6.png" alt="image-20240418153704045"></p>
 <ul>
 <li>在桌面生成快捷键图标(2020以后的版本无需此操作)：在电脑左下角【开始菜单】选择【所有程序】，找到刚才安装的软件并鼠标左键选中拖动至桌面空白处即可；</li>
 </ul>
-<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007932517-assets/web-upload/1d8f82e0-41cf-4355-9ce0-a765576c3558.png?x-oss-process=image/resize,w_433,limit_0" alt="img"></p>
+<p><img src="https://s2.loli.net/2024/04/18/qWO3YuExgyabMIP.png" alt="image-20240418153738020"></p>
 <ul>
 <li>至此，软件已成功安装，双击即可使用，且永久免费，其它软件安装步骤与以上步骤一样；</li>
 </ul>
@@ -166,7 +222,7 @@
   <entry>
     <title>Adobe全套下载</title>
     <url>/posts/96ba4de4/</url>
-    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="💡文档目录"><a href="#💡文档目录" class="headerlink" title="💡文档目录"></a>💡文档目录</h2><p><strong>| - <a href="/posts/96ba4de4/">🚀Adobe全套下载</a> - | - <a href="/posts/1a7dd6ac/">📚Win安装教程</a> | - <a href="/posts/96ba4de4/">📚MAC安装教程</a> - |</strong></p>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="💡文档目录"><a href="#💡文档目录" class="headerlink" title="💡文档目录"></a>💡文档目录</h2><p><strong>| - <a href="/posts/96ba4de4/">🚀Adobe全套下载</a> - | - <a href="/posts/1a7dd6ac/">📚Win安装教程</a> | - <a href="/posts/4d654abd/">📚MAC安装教程</a> - |</strong></p>
 </div>
 <hr>
 <h1 id="Adobe全套下载"><a href="#Adobe全套下载" class="headerlink" title="Adobe全套下载"></a>Adobe全套下载</h1><p>分享学习使用</p>
@@ -181,7 +237,7 @@
 </thead>
 <tbody><tr>
 <td align="center"><img src="https://s2.loli.net/2024/04/15/67MOFGxmBAzIPcb.png"></td>
-<td><a href="https://www.123pan.com/s/AA9DVv-pOO2A.html">登录不限速-点击下载-PS</a></td>
+<td><a href="https://www.123pan.com/s/AA9DVv-pOO2A.html">登录不限速-点击下载-PS<i class="fas fa-home"></i></a></td>
 <td><a href="https://www.123pan.com/s/AA9DVv-fOO2A.html">登录不限速-点击下载-PS(芯片通用)</a></td>
 </tr>
 <tr>
