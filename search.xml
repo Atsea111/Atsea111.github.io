@@ -113,9 +113,60 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Adobe-WIN安装教程</title>
+    <url>/posts/1a7dd6ac/</url>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="💡文档目录"><a href="#💡文档目录" class="headerlink" title="💡文档目录"></a>💡文档目录</h2><p><strong>| - <a href="/posts/96ba4de4/">🚀Adobe全套下载</a> - | - <a href="/posts/1a7dd6ac/">📚Win安装教程</a> | - <a href="/posts/96ba4de4/">📚MAC安装教程</a> - |</strong></p>
+</div>
+
+<hr>
+<h1 id="Adobe-WIN安装教程"><a href="#Adobe-WIN安装教程" class="headerlink" title="Adobe-WIN安装教程"></a>Adobe-WIN安装教程</h1><h2 id="一、视频安装教程"><a href="#一、视频安装教程" class="headerlink" title="一、视频安装教程"></a><strong>一、视频安装教程</strong></h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=680222232&page=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
+
+<h2 id="二、图文安装教程"><a href="#二、图文安装教程" class="headerlink" title="二、图文安装教程"></a><strong>二、图文安装教程</strong></h2><h3 id="1退出杀毒软件"><a href="#1退出杀毒软件" class="headerlink" title="1退出杀毒软件"></a>1退出杀毒软件</h3><ul>
+<li><p>包括但不限于360安全卫士、360杀毒、金山毒霸、火绒安全、2345安全卫士等; </p>
+</li>
+<li><p>无需担心软件有病毒，Adobe的所有软件在安装时均会写入电脑注册表信息，此行为会被杀毒软件阻止，最终导致安装失败；</p>
+</li>
+</ul>
+<h3 id="2解压缩安装包文件"><a href="#2解压缩安装包文件" class="headerlink" title="2解压缩安装包文件"></a>2解压缩安装包文件</h3><ul>
+<li><p>将下载好的安装包文件复制或剪切至桌面，如下载目录是桌面，请忽略本条信息； ●右键点击下载完成的安装包文件，并选择“解压到当前文件夹”； </p>
+</li>
+<li><p>如果下载下来图标是白色的，说明您没安装压缩包软件，请【<a href="https://yasuo.360.cn/"><strong>点我下载</strong></a>】；</p>
+</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007272162-assets/web-upload/cde36430-8e8e-4b3c-96a6-c76a98f006f3.png?x-oss-process=image/resize,w_410,limit_0" alt="img"></p>
+<h3 id="3开始安装"><a href="#3开始安装" class="headerlink" title="3开始安装"></a>3开始安装</h3><ul>
+<li>右键点击解压出来的文件夹中的【Set-up.exe】安装程序，并选择“以管理员身份运行”;</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007805427-assets/web-upload/4b924a73-3727-4577-b684-06752f0ddff1.png?x-oss-process=image/resize,w_658,limit_0" alt="img"></p>
+<ul>
+<li>选择软件需要安装到的磁盘及磁盘内的文件夹位置；</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007932464-assets/web-upload/27906d2e-e029-4a18-a883-80d84d872646.png?x-oss-process=image/resize,w_466,limit_0" alt="img"></p>
+<ul>
+<li>等待程序安装完成；</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007932445-assets/web-upload/6117695d-0cd8-4c84-a246-16ad34ba787a.png?x-oss-process=image/resize,w_474,limit_0" alt="img"></p>
+<ul>
+<li>在桌面生成快捷键图标(2020以后的版本无需此操作)：在电脑左下角【开始菜单】选择【所有程序】，找到刚才安装的软件并鼠标左键选中拖动至桌面空白处即可；</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1741074/1642007932517-assets/web-upload/1d8f82e0-41cf-4355-9ce0-a765576c3558.png?x-oss-process=image/resize,w_433,limit_0" alt="img"></p>
+<ul>
+<li>至此，软件已成功安装，双击即可使用，且永久免费，其它软件安装步骤与以上步骤一样；</li>
+</ul>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>资源</tag>
+        <tag>下载</tag>
+        <tag>Adobe</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Adobe全套下载</title>
     <url>/posts/96ba4de4/</url>
-    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="文档目录"><a href="#文档目录" class="headerlink" title="文档目录"></a>文档目录</h2><p>| - <a href="/posts/96ba4de4/">Adobe全套下载</a> - | - <a href="/posts/96ba4de4/">win安装教程</a> | - <a href="/posts/96ba4de4/">MAC安装教程</a> - |</p>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><h2 id="💡文档目录"><a href="#💡文档目录" class="headerlink" title="💡文档目录"></a>💡文档目录</h2><p><strong>| - <a href="/posts/96ba4de4/">🚀Adobe全套下载</a> - | - <a href="/posts/1a7dd6ac/">📚Win安装教程</a> | - <a href="/posts/96ba4de4/">📚MAC安装教程</a> - |</strong></p>
 </div>
 <hr>
 <h1 id="Adobe全套下载"><a href="#Adobe全套下载" class="headerlink" title="Adobe全套下载"></a>Adobe全套下载</h1><p>分享学习使用</p>
